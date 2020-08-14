@@ -88,7 +88,7 @@ seekButton.onclick = () => {
 	removeAllChildren(coordinateDivided);
 	// 座標表示エリアの作成
 	const coordinateP = document.createElement('p');
-	coordinateP.innerText = 'パワースポットの座標は緯度：' + latitude.toFixed(5) + ' 経度：' + longitude.toFixed(5);
+	coordinateP.innerText = 'パワースポットの座標は　緯度：' + latitude.toFixed(5) + '、経度：' + longitude.toFixed(5);
 	coordinateDivided.appendChild(coordinateP);
 
 };
