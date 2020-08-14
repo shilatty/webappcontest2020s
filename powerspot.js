@@ -90,7 +90,7 @@ seekButton.onclick = () => {
 	removeAllChildren(coordinateDivided);
 	// 座標表示エリアの作成
 	const coordinateP = document.createElement('p');
-	paragraph.innerText = '緯度：' + laritude + ' 経度：' longitude;
+	paragraph.innerText = '緯度：' + laritude + ' 経度：' + longitude;
 	coordinateDivided.appendChild(paragraph);
 
 };
