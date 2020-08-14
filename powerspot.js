@@ -47,9 +47,7 @@ seekButton.onclick = () => {
 	const header = document.createElement('h3');
 	header.innerText = userName + 'さんのパワースポットはこの辺りです。';
 	resultDivided.appendChild(header);
-
 	const paragraph = document.createElement('p');
-
 	paragraph.innerText = '何もなさそう？ 「ー」ボタンでズームアウトしてみよう';
 	resultDivided.appendChild(paragraph);
 
@@ -90,7 +88,7 @@ seekButton.onclick = () => {
 	removeAllChildren(coordinateDivided);
 	// 座標表示エリアの作成
 	const coordinateP = document.createElement('p');
-	coordinateP.innerText = '緯度：' + latitude.toFixed(5) + ' 経度：' + longitude.toFixed(5);
+	coordinateP.innerText = 'パワースポットの座標は緯度：' + latitude.toFixed(5) + ' 経度：' + longitude.toFixed(5);
 	coordinateDivided.appendChild(coordinateP);
 
 };
