@@ -64,8 +64,8 @@ seekButton.onclick = () => {
 		+ longitude + '!3d' + latitude
 		+ '!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1596033220929!5m2!1sja!2sjp';
 
-	let widthValue = 400;
-	let heightValue = 300;
+	let widthValue = 480;
+	let heightValue = 360;
 	let frameborderValue = 0;
 	let styleValue = 'border:0;';
 	let allowfullscreenValue = '';
