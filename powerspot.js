@@ -4,6 +4,7 @@ const userNameInput = document.getElementById('user-name');		// 名前を入力�
 const seekButton = document.getElementById('seek-button');		// 診断ボタン
 const resultDivided = document.getElementById('result-area');	// 結果表示エリアdiv
 const mapDivided = document.getElementById('map-area');			// map表示エリアdiv
+const coordinateDivided = document.getElementById('lat-long');			// map表示エリアdiv
 // 変数の宣言と初期化
 var userName = null;	// 診断する名前
 var sumOfCharCode = 0;	// userNameの文字コードから生成した数字
@@ -84,6 +85,14 @@ seekButton.onclick = () => {
 
 	// map-areaのdivに入れる
 	mapDivided.appendChild(mapFrame);
+
+	// 座標表示エリアを初期化
+	removeAllChildren(coordinateDivided);
+	// 座標表示エリアの作成
+	const coordinateP = document.createElement('p');
+	paragraph.innerText = '緯度：' + laritude + ' 経度：' longitude;
+	coordinateDivided.appendChild(paragraph);
+
 };
 
 // エンターキーでもOKにする
