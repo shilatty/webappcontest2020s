@@ -15,6 +15,15 @@ header {
 	padding-bottom: 24px;
 }
 
+a {
+	text-decoration: none;
+	color: #23A1E8;
+}
+
+a:hover {
+	color: #337ab7;
+}
+
 .container {
 	width: 480px;
 	margin-left: auto;
