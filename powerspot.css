@@ -1,10 +1,93 @@
 body {
-	background-color: #23A1E8;
-	background-image: url("sekaichizu.png");
 	color: #fdffff;
-	width: 500px;
-	margin-right: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-image: url("img/sekaichizu.png");
+	background-color: #23A1E8;
+	display: flex;
+	flex-flow: column;
+	min-height: 100vh;
+}
+
+header {
+	background-color: #efefef;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.container {
+	width: 400px;
 	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+
+}
+
+.icon img {
+	border-radius: 50%;
+	border-width: 4px;
+	border-style: solid;
+	border-color: white;
+	background-color: #23A1E8;
+}
+
+.info {
+	margin-left: 18px;
+	color: #23A1E8;
+}
+
+.info h1 {
+	font-weight: normal;
+	font-size: 24px;
+	margin: 0;
+}
+
+.mainbody {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+	flex: 1;
+}
+
+input {
+	margin-bottom: 12px;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 12px;
+}
+
+.mainbody > section {
+	/* margin-bottom: 60px; */
+	text-align: center;
+}
+
+p {
+	line-height: 1.8;
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+footer {
+	text-align: center;
+	font-size: 14px;
+	color: gray;
+	background-color: #efefef;
+	padding-top: 6px;
+	padding-bottom: 24px;
+}
+
+footer p {
+	margin: 0;
 }
 
 button {
