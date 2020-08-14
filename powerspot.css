@@ -32,6 +32,10 @@ a:hover {
 	align-items: center;
 }
 
+.icon {
+	padding-left: 32px;
+}
+
 .icon img {
 	border-radius: 50%;
 	border-width: 4px;
@@ -43,6 +47,7 @@ a:hover {
 .info {
 	margin-left: 18px;
 	color: #23A1E8;
+	text-align: center;
 }
 
 .info h1 {
