@@ -70,7 +70,7 @@ function createMapArea() {
 	// iframeの属性値を代入
 	let srcValue =
 		'https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14392.693440469557!2d'
-		+ latitude + '!3d' + longitude
+		+ longitude + '!3d' + latitude
 		+ '!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1596033220929!5m2!1sja!2sjp';
 	// 属性に値をセット
 	mapFrame.setAttribute('src', srcValue);
